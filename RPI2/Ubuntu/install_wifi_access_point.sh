@@ -17,8 +17,8 @@ tput sgr0
 # time snap install network-manager
 time snap install wifi-ap
 sleep 5
-wifi-ap.config set wifi.ssid=ArduPilot
-wifi-ap.config set wifi.security-passphrase=ardupilot
+wifi-ap.config set wifi.ssid=Drone
+wifi-ap.config set wifi.security-passphrase=2000czkk
 wifi-ap.config set wifi.address=10.0.1.128
 wifi-ap.config set wifi.operation-mode=a    # 5Ghz by default
 wifi-ap.config set wifi.channel=48          # set to a clear channel in your area
